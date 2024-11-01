@@ -1,0 +1,13 @@
+export default function DescrTextWp({scrollItem}){
+    const text = [' Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum nostrum aperiam eveniet reprehenderit similique aliquam architecto corporis ullam expedita cumque,harum iusto eos accusamus temporibus perspiciatis nihil placeat non.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto sit dolorem dignissimos iste earum unde quas, accusantium reiciendisneque aperiam commodi ab. Repellat tenetur, nam temporibus in maxime consectetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum nostrum aperiam eveniet reprehenderit similique aliquam architecto corporis ullam expedita cumque,harum iusto eos accusamus temporibus perspiciatis nihil placeat non.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto sit dolorem dignissimos iste earum unde quas, accusantium reiciendisneque aperiam commodi ab. Repellat tenetur, nam temporibus in maxime consectetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum nostrum aperiam eveniet reprehenderit similique aliquam architecto corporis ullam expedita cumque,harum iusto eos accusamus temporibus perspiciatis nihil placeat non.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto sit dolorem dignissimos iste earum unde quas, accusantium reiciendisneque aperiam commodi ab. Repellat tenetur, nam temporibus in maxime consectetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum nostrum aperiam eveniet reprehenderit similique aliquam architecto corporis ullam expedita cumque,harum iusto eos accusamus temporibus perspiciatis nihil placeat non.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto sit dolorem dignissimos iste earum unde quas, accusantium reiciendisneque aperiam commodi ab. Repellat tenetur, nam temporibus in maxime consectetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum nostrum aperiam eveniet reprehenderit similique aliquam architecto corporis ullam expedita cumque,harum iusto eos accusamus temporibus perspiciatis nihil placeat non.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto sit dolorem dignissimos iste earum unde quas, accusantium reiciendisneque aperiam commodi ab. Repellat tenetur, nam temporibus in maxime consectetur?']
+
+    return(
+        <div className='descr-text-wp'>
+            <div className='descr-text' ref={scrollItem}>
+                {text}
+            </div>
+                           
+        </div>
+
+    )
+}

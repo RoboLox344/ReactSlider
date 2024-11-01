@@ -1,0 +1,200 @@
+@keyframes load {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.home-page{
+    position: relative;
+    width: 100%;
+    height: 768px;
+    background-image: url('../src/assets/img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:left;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: load 500ms ease-in-out normal;
+}
+.sperm-img-wp, .decor-img--stick, .decor-img-round--ferst,
+.decor-img-round-blur--ferst, .decor-img-round--thorn,
+.decor-img-round--thorn--big, .decor-img-round--blur--sec,
+.decor-img-sperm--blur, .decor-img-sperm-round--three{
+    position: absolute;
+    right: -5%;
+    top: 20%;
+    max-width: 603px;
+    transform: translateY(-40%);
+    width: 100%;
+    z-index: 2;
+}
+.sperm-img-wp{
+    right: -1%;
+    transform: translateY(35%);
+}
+.decor-img--stick{
+    left: -6%;
+    top: 15%;
+    transform: translateY(-20%);
+    max-width: 200px;
+}
+@keyframes round-ferst-goo {
+    0% {
+        transform: translate(0, 0) /* rotate(-20deg) */; 
+    }
+    50% {
+        transform: translate(-100%, -80%) /* rotate(180deg) */; 
+    }
+    100% {
+        transform: translate(0, 0)/*  rotate(-20deg) */; 
+    }
+}
+.decor-img-round--ferst{
+    max-width: 67px;
+    min-height: 68px;
+
+    top: 15%;
+    right: 20%;
+
+    animation: round-ferst-goo 10000ms ease-in-out infinite;
+    z-index: 3;
+}
+.decor-img-round-blur--ferst{
+    max-width: 58px;
+    min-height: 58px;
+
+    top: 6%;
+    right: 10%;
+}
+@keyframes thorn-goo {
+    0% {
+        transform: translate(0, 0) rotate(-20deg); 
+    }
+    50% {
+        transform: translate(-120%, -120%) rotate(180deg); 
+    }
+    100% {
+        transform: translate(0, 0) rotate(-20deg); 
+    }
+}
+
+.decor-img-round--thorn{
+    max-width: 112px;
+    min-height: 112px;
+    top: 38%;
+    right: 4%;
+
+    animation: thorn-goo 20000ms ease-in-out infinite;
+    z-index: 4;
+}
+@keyframes scale-out-in {
+    0% {
+        transform: scale(1) translate(0, -60%);
+    }
+    50% {
+        transform: scale(0.5) translate(-80%, -80%);
+    }
+    100% {
+        transform: scale(1) translate(0, -60%); 
+    }
+}
+.decor-img-round--thorn--big{
+    max-width: 239px;
+    min-height: 239px;
+    bottom: -28%;
+    right: 20%;
+    transform: translate(0,0);
+    top: auto;
+    z-index: 4;
+    animation:scale-out-in  20000ms ease-in-out infinite ;
+}
+.decor-img-round--blur--sec{
+    max-width: 80px;
+    min-height: 80px;
+    top: auto;
+    bottom: 10% ;
+    left: 35%;
+    transform: translateX(-20%);
+}
+.decor-img-sperm--blur{
+    max-width: 400px;
+    min-height: 110px;
+    left: -10%;
+    top: unset;
+    bottom:-10%;
+}
+@keyframes dg-anim {
+    0% {
+        transform: translate(0, 0) scale(1) /* rotate(-20deg) */; 
+    }
+    50% {
+        transform: translate(-60%, -100%) scale(0.6)/* rotate(180deg) */; 
+    }
+    100% {
+        transform: translate(0, 0) scale(1) /*  rotate(-20deg) */; 
+    }
+}
+.decor-img-sperm-round--three{
+    max-width: 80px;
+    min-height: 80px;
+    top: unset;
+    bottom: 20%;
+    left: 5%;
+
+    animation: dg-anim 20000ms ease-in-out infinite;
+    z-index: 0;
+}
+.img-sperm{
+    width: 100%;
+    height: 100%;
+}
+.ferstPage-cont-wp{
+    max-width: 820px;
+    width: 100%;
+    min-height: 404px;
+    line-height: 79px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    z-index: 1;
+    color: black;
+}
+
+.page-ferst-text{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align:start;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.page-ferst-text--heading{
+    font-weight: 100;
+    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.promo-text-wp{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 41px;
+}
+.promo-text-wp--ultraStrong{
+    font-weight: 900;
+}
+
+
+

@@ -1,0 +1,33 @@
+.header-wp{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: start;
+    position: fixed;
+    z-index: 100;
+    margin-top: 30px
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 154px;
+    width: 100%;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 8rem;
+    
+
+}
+.svg-home{
+    stroke: black;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+.header-text{
+    font-weight: 500;
+    height: 21px;
+}
